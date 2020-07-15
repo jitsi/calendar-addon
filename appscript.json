@@ -1,0 +1,33 @@
+{
+  "timeZone": "America/Mexico_City",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Calendar",
+      "serviceId": "calendar",
+      "version": "v3"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/calendar.addons.execute",
+    "https://www.googleapis.com/auth/calendar.events.readonly",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.scriptapp"
+  ],
+  "addOns": {
+    "calendar": {
+      "conferenceSolution": [
+        {
+          "id": 1,
+          "name": "Jitsi Meet",
+          "logoUrl": "https://lh3.googleusercontent.com/-WuPhRsFGKUc/XCng7m_FIxI/AAAAAAAAAGg/ASH4GCGDMs0d55OZQGCSIQHXjRAKnkeTQCLcBGAs/s400/jitsi-logo-96x96.png",
+          "onCreateFunction": "createConference"
+        }
+      ]
+    },
+    "common": {
+      "name": "Jitsi Meet",
+      "logoUrl": "https://lh3.googleusercontent.com/-WuPhRsFGKUc/XCng7m_FIxI/AAAAAAAAAGg/ASH4GCGDMs0d55OZQGCSIQHXjRAKnkeTQCLcBGAs/s400/jitsi-logo-96x96.png"
+    }
+  }
+}
