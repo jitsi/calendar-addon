@@ -20,14 +20,14 @@
         {
           "id": 1,
           "name": "Jitsi Meet",
-          "logoUrl": "https://lh3.googleusercontent.com/-WuPhRsFGKUc/XCng7m_FIxI/AAAAAAAAAGg/ASH4GCGDMs0d55OZQGCSIQHXjRAKnkeTQCLcBGAs/s400/jitsi-logo-96x96.png",
+          "logoUrl": "https://raw.githubusercontent.com/jitsi/calendar-addon/master/images/calendar-logo.png",
           "onCreateFunction": "createConference"
         }
       ]
     },
     "common": {
       "name": "Jitsi Meet",
-      "logoUrl": "https://lh3.googleusercontent.com/-WuPhRsFGKUc/XCng7m_FIxI/AAAAAAAAAGg/ASH4GCGDMs0d55OZQGCSIQHXjRAKnkeTQCLcBGAs/s400/jitsi-logo-96x96.png"
+      "logoUrl": "https://raw.githubusercontent.com/jitsi/calendar-addon/master/images/calendar-logo.png"
     }
   }
 }
