@@ -1,5 +1,6 @@
 {
   "timeZone": "America/Mexico_City",
+  "runtimeVersion": "V8",
   "dependencies": {
     "enabledAdvancedServices": [{
       "userSymbol": "Calendar",
